@@ -1,0 +1,64 @@
+.funda_productos {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.funda_content {
+    box-shadow: 1px 1px 6px #80808069;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0 0;
+}
+
+.funda_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.funda_info h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.funda_info button {
+    background: #f5f5f5;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.table_pro_donados {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.table_pro_donados thead {
+    text-align: left;
+    font-size: 1.1rem;
+    background: #eeeeee;
+}
+
+.table_pro_donados thead th {
+    font-weight: 500;
+}
+
+.table_pro_donados tr {
+    border-bottom: 1px solid #c5c5
+}
+
+.table_pro_donados tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.table_pro_donados th, .table_pro_donados td {
+    padding: 0.5rem;
+}

@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 1px 1px 6px #80808066;
+    background: #f5f5f5;
+    position: sticky;
+    top: 0;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.contiene_logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.contiene_logo img {
+    width: 4rem;
+}
+
+.contiene_logo h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.btn_cerrar {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ffff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #fff;
+    box-shadow: 1px 1px 6px #8080804d;
+    font-size: 1rem;
+    cursor: pointer;
+}

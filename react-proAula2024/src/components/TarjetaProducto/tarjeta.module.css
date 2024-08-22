@@ -1,0 +1,29 @@
+.tarjeta_fundacion {
+    width: 18rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 6px #c5c5c5;
+    border-radius: 0.5rem;
+    max-width: 20rem;
+    background: #fff;
+}
+
+.titulo_tarjeta {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.texto_tarjeta {
+    color: #737373;
+}
+
+.btn_donar {
+    border-radius: 0.5rem;
+    background: #f5f5f5;
+    border: 1px solid #ffff;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    margin: 1rem 0 0;
+    height: 3rem;
+}
